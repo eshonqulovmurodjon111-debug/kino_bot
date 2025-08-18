@@ -2,6 +2,7 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import logging
 
+
 # 🎬 Har bir bo‘lim uchun kinolar
 # 🎬 Har bir bo‘lim uchun kinolar
 sections = {
@@ -92,7 +93,7 @@ def get_main_markup(lang="uz"):
 def get_language_buttons():
     buttons = [
         [KeyboardButton("🇺🇿 O‘zbekcha"), KeyboardButton("🇷🇺 Русский"), KeyboardButton("🇬🇧 English")],
-        [KeyboardButton("⬅️ Orqaga")]
+
     ]
     return ReplyKeyboardMarkup(buttons, resize_keyboard=True)
 
