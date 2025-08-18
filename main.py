@@ -196,3 +196,4 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_buttons))
     print("🤖 Bot ishga tushdi...")
     app.run_polling()
+.idea papkasida inspectionProfiles miscs.xml  va workspace.xml bor shu fayllarni githubga chiqarmay faqat 1 ta main.py chiqarish kerak qanday qiladi shuni va git buyrqlarini ber
